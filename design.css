@@ -91,8 +91,12 @@ footer {
   background-color: white;
 }
 @media (max-width: 480px) {
+  #yt-video{
+    padding: 0px 20px;
+  }
   #products {
     margin: 0px 0px;
+    padding: 20px 0px;
   }
   #video{
     width: 100%;
@@ -103,6 +107,9 @@ footer {
   header{
     background-color: white;
     width: 100%;
+  }
+  #phone-lists, #audio-lists, #tv-lists{
+    justify-content:flex-start;
   }
   #phone-img  > img, #audio-img > img, #tv-img > img{
     width: 200px;
