@@ -114,6 +114,7 @@ footer {
   #phone-img  > img, #audio-img > img, #tv-img > img{
     width: 200px;
     height: 125px;
+    padding-right: 10px;
   }
 }
 
